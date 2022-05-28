@@ -9,14 +9,15 @@ environment:
 dependencies:
   authentication_repository:
     path: packages/authentication_repository
-  bloc:
-    path: ../../packages/bloc
+  #bloc:
+  #  path: ../../packages/bloc
   equatable: ^2.0.3
   flow_builder: ^0.0.4
   flutter:
     sdk: flutter
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+#  flutter_bloc:
+#    path: ../../packages/flutter_bloc
+  flutter_bloc: ^8.0.1
   font_awesome_flutter: ^9.1.0
   form_inputs:
     path: packages/form_inputs
@@ -36,10 +37,10 @@ flutter:
   assets:
     - assets/
 
-dependency_overrides:
-  bloc:
-    path: ../../packages/bloc
-  bloc_test:
-    path: ../../packages/bloc_test
-  flutter_bloc:
-    path: ../../packages/flutter_bloc
+#dependency_overrides:
+#  bloc:
+#    path: ../../packages/bloc
+#  bloc_test:
+#    path: ../../packages/bloc_test
+#  flutter_bloc:
+#    path: ../../packages/flutter_bloc

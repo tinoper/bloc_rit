@@ -67,7 +67,7 @@ build/
 # Firebase related
 .firebase/
 /lib/firebase_options.dart
-ios/Runner/GoogleService-Info.plist
+/ios/Runner/GoogleService-Info.plist
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
